@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.heading{
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.progressContainer{
+  border: 1px solid black;
+  margin: 10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 40px;
+}
+
+.progressBar{
+  height: 100%;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  font-size: 22px;
+  text-align: right;
+  transition: all 0.8s ease-in-out;
+}
